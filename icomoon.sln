@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icomoon", "icomoon.csproj", "{D195BB9E-952C-4980-9D26-35CC5F0E7D17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icomoon", "src/Infocaster.UmbracoAwesome.Icomoon/icomoon.csproj", "{D195BB9E-952C-4980-9D26-35CC5F0E7D17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
