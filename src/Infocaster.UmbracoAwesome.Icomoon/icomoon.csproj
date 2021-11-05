@@ -67,12 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_plugin\Icomoon\scripts\editor.controller.js" />
+    <Content Include="App_plugin\Icomoon\scripts\panel.controller.js" />
+    <Content Include="App_plugin\Icomoon\style\icomoon.css" />
+    <Content Include="App_plugin\Icomoon\views\editor.html" />
+    <Content Include="App_plugin\Icomoon\views\panel.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_plugin\Icomoon\package.manifest" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
