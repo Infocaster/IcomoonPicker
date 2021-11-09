@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>UmbracoAwesome-IcomoonPicker</id>
+    <version>1.0.0</version>
+    <authors>Infocaster</authors>
+    <owners>Infocaster</owners>
+    <projectUrl>https://infocaster.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This will add a property editor type to your data types section.</description>
+    <releaseNotes><![CDATA[1.0.0 Initial release]]></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>umbraco, umbraco-cms, umbracoAwesome, Icomoon</tags>
+    <dependencies>
+
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\Infocaster.UmbracoAwesome.Icomoon\App_Plugins\Icomoon\**\*.*" target="content\App_Plugins\Icomoon" />
+  </files>
+</package>
