@@ -1,20 +1,19 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Icomoon Icon Picker 
+This package lets you use your icomoon project as an icon picker for the specified doctype for Umbraco 8
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Installation
+1. Voeg de plugin toe aan de App_plugins map van je project.
+2. Maak in de backoffice van je project een data type aan.  Settings > Data Types - New Data Type.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+    2.1  Geef het Data type een duidelijke titel.
+    
+    2.2 Als de plugin juist is toegevoegd aan App_plugins, zou je in de property editor de optie hebben voor "Icomoon icon picker". Selecteer deze.
+   
+   2.3 Vul de project name van je icomoon project in. Jouw Icomoon project name [Link]().
+   
+   2.4 Vul de project code van je icomoon project in. Jouw Icomoon project code [Link]().
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+3. Gebruik het data type op de gewenste document type.
+4. De Icon picker is klaar voor gebruik op de content pagina met het zojuist gebruikte document type.
