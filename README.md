@@ -11,9 +11,14 @@ This package lets you use your icomoon project as an icon picker for the specifi
     
     2.2 Als de plugin juist is toegevoegd aan App_plugins, zou je in de property editor de optie hebben voor "Icomoon icon picker". Selecteer deze.
    
-   2.3 Vul de project name van je icomoon project in. Jouw Icomoon project name [Link]().
+   2.3 Vul de project name van je icomoon project in. 
    
-   2.4 Vul de project code van je icomoon project in. Jouw Icomoon project code [Link]().
+   2.4 Vul de project code van je icomoon project in.
+
+   Code en project naam zijn [hier](https://icomoon.io/app/#/select/image) te vinden.
+   
+   ```<link rel="stylesheet" href="https://i.icomoon.io/public/{Code}/{Projectname}}/style-svg.css"></```
+
 
 3. Gebruik het data type op de gewenste document type.
 4. De Icon picker is klaar voor gebruik op de content pagina met het zojuist gebruikte document type.
