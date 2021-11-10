@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>~/App_Plugins/Icomoon</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>editor.controller.js</guid>
+      <orgPath>~/App_Plugins/Icomoon/scripts</orgPath>
+      <orgName>editor.controller.js</orgName>
+    </file>
+    <file>
+      <guid>panel.controller.js</guid>
+      <orgPath>~/App_Plugins/Icomoon/scripts</orgPath>
+      <orgName>panel.controller.js</orgName>
+    </file>
+    <file>
+      <guid>icomoon.css</guid>
+      <orgPath>~/App_Plugins/Icomoon/style</orgPath>
+      <orgName>icomoon.css</orgName>
+    </file>
+    <file>
+      <guid>editor.html</guid>
+      <orgPath>~/App_Plugins/Icomoon/views</orgPath>
+      <orgName>editor.html</orgName>
+    </file>
+    <file>
+      <guid>panel.html</guid>
+      <orgPath>~/App_Plugins/Icomoon/views</orgPath>
+      <orgName>panel.html</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Umbraco Awesome - Icomoon picker</name>
+      <version>1.0.0</version>
+      <iconUrl></iconUrl>
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://infocaster.net/</url>
+      <requirements type="Strict">
+        <major>8</major>
+        <minor>17</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Infocaster</name>
+      <website>https://infocaster.net/</website>
+    </author>
+    <contributors></contributors>
+    <readme><![CDATA[This will add a property editor type to your data types section. 
+
+With this data type you can create an icon picker for your icomoon project.]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Icomoon icon picker" Id="Infocaster.IcomoonPicker" Definition="7facfdb7-7dfe-4c80-931f-a26cc500e2b6" DatabaseType="Nvarchar" Configuration="{&quot;projectName&quot;:&quot;&quot;,&quot;projectCode&quot;:&quot;&quot;}" />
+  </DataTypes>
+  <Actions />
+</umbPackage>
