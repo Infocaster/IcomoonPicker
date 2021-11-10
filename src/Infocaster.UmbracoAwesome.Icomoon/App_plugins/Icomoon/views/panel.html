@@ -12,8 +12,8 @@
                 <umb-box>
                     <umb-box-content>
                         <ul class="umb-iconpicker color-black">
-                            <li class="umb-iconpicker-item" ng-repeat="icon in vm.icons">
-                                <svg class="icomoon-icon" ng-class="icon" ng-click="vm.select(icon)">
+                            <li class="umb-iconpicker-item icomoon-list" ng-repeat="icon in vm.icons">
+                                <svg class="umb-icon icomoon-icon" ng-class="icon" ng-click="vm.select(icon)">
                                     <use ng-attr-href="#{{icon}}"></use>
                                 </svg>
                             </li>

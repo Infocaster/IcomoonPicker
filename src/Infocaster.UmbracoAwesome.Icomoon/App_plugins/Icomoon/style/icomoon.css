@@ -2,7 +2,6 @@
     display: inline-block;
     width: 2em;
     height: 2em;
-    padding: 1em;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
@@ -10,6 +9,14 @@
     flex-shrink: 0;
 }
 
-.list .icomoon-icon:hover {
+.icomoon-box {
+    display: flex;
+}
+
+.icomoon-list .icomoon-icon {
+    padding: 1em;
+}
+
+.icomoon-list .icomoon-icon:hover {
     background: #f9f9fa;
 }
