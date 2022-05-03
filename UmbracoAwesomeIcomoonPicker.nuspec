@@ -16,6 +16,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\src\Infocaster.UmbracoAwesome.Icomoon\App_Plugins\Icomoon\**\*.*" target="content\App_Plugins\Icomoon" />
+    <file src="src\Infocaster.UmbracoAwesome.Icomoon\App_Plugins\Icomoon\**\*.*" target="content\App_Plugins\Icomoon" />
+	<file src="src\Infocaster.UmbracoAwesome.Icomoon\bin\Release\Infocaster.Icomoon.dll" target="lib" />
   </files>
 </package>

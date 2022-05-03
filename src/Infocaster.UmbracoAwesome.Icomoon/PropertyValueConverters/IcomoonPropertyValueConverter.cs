@@ -3,7 +3,7 @@ using Umbraco.Core;
 using Umbraco.Core.Models.PublishedContent;
 using Umbraco.Core.PropertyEditors;
 
-namespace IMG.Icomoon.PropertyValueConverters
+namespace Infocaster.Icomoon.PropertyValueConverters
 {
     public class IcomoonPropertyValueConverter : PropertyValueConverterBase
     {

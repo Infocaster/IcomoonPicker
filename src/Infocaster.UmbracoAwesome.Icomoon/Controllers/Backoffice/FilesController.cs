@@ -4,7 +4,7 @@ using System.Web.Http;
 using Umbraco.Web.Mvc;
 using Umbraco.Web.WebApi;
 
-namespace IMG.Controllers.Backoffice
+namespace Infocaster.Icomoon.Controllers.Backoffice
 {
     [PluginController("icomoon")]
     public class FilesController : UmbracoAuthorizedApiController
