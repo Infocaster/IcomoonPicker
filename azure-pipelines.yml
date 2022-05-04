@@ -3,6 +3,9 @@ trigger:
 - v8/develop
 - v8/release/*
 - v8/hotfix
+ tags:
+    include:
+    - 1.*
 
 pool:
   name: Default
