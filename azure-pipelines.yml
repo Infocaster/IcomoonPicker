@@ -1,9 +1,11 @@
 trigger:
-- v8/main
-- v8/develop
-- v8/release/*
-- v8/hotfix
- tags:
+  branches:
+    include:
+    - v8/main
+    - v8/develop
+    - v8/release/*
+    - v8/hotfix
+  tags:
     include:
     - 1.*
 
