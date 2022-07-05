@@ -55,3 +55,7 @@ Created by [Infocaster](https://infocaster.net)
 *Made with [contributors-img](https://contrib.rocks).*
 
 -----
+
+<a href="https://infocaster.net">
+<img align="right" height="200" src="https://raw.githubusercontent.com/Infocaster/.github/main/assets/Infocaster_Corner.png?raw=true">
+</a>
