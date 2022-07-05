@@ -28,6 +28,16 @@ Installing the Icomoon icon picker is quick and easy, just install the NuGet pac
 3. Select this new Property Type and enter the name and code of your Icomoon project (these can be found [here](https://icomoon.io/app/#/select/image) in the url shown under Development Links and Production Links. The code is the part after `public` in the URL). 
 4. Save the Property Type. It is now available to use in any Document Type you want!
 
+## How to use
+After selecting an icon the model will now contain a string with the correct value.
+Assuming the value in your model is called `Icon` the icon can be used as shown below.
+
+```
+<svg class="icon @Icon">
+    <use xlink:href="#@Icon"></use>
+</svg>
+```
+
 ## Credits
 Created by Infocaster
 
