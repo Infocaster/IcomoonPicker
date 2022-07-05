@@ -1,5 +1,4 @@
 ﻿<div ng-controller="infocaster.icomooneditorcontroller as vm" class="icomoon-box">
-    <i ng-if="!model.value">Er is nog geen waarde geselecteerd</i>
     <svg ng-show="model.value" class="icomoon-icon" ng-click="vm.edit()" ng-class="model.value">
         <use ng-attr-href="#{{model.value}}"></use>
     </svg>
