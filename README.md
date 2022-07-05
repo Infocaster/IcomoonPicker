@@ -5,9 +5,9 @@
 <h1 align="center">
 Icomoon icon picker
 
-[![Downloads](https://img.shields.io/nuget/dt/UrlTracker?color=ff0069)](https://www.nuget.org/packages/UrlTracker/)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/UrlTracker?color=ffc800)](https://www.nuget.org/packages/UrlTracker/)
-![GitHub](https://img.shields.io/github/license/Infocaster/UrlTracker?color=ff0069)
+[![Downloads](https://img.shields.io/nuget/dt/IcomoonPicker?color=ff0069)](https://www.nuget.org/packages/IcomoonPicker/)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/IcomoonPicker?color=ffc800)](https://www.nuget.org/packages/IcomoonPicker/)
+![GitHub](https://img.shields.io/github/license/Infocaster/IcomoonPicker?color=ff0069)
 
 </h1>
 
@@ -18,7 +18,7 @@ This package gives the content editor complete control over which icons can be u
 The Icomoon icon picker requires you to set up an Icomoon account.
 
 ## Getting started
-The Icomoon icon picker is available via [NuGet](https://www.nuget.org/packages/UrlTracker/).
+The Icomoon icon picker is available via [NuGet](https://www.nuget.org/packages/IcomoonPicker/).
 
 ## Installation
 Installing the Icomoon icon picker is quick and easy, just install the NuGet package and follow these steps:
@@ -29,6 +29,10 @@ Installing the Icomoon icon picker is quick and easy, just install the NuGet pac
 4. Save the Property Type. It is now available to use in any Document Type you want!
 
 ## How to use
+After creating the DataType and adding it to a Document Type the icon can be selected by the content editor like this:
+
+![Add icon](assets/screenshots/add_icon.png)
+
 After selecting an icon the model will now contain a string with the correct value.
 Assuming the value in your model is called `Icon` the icon can be used as shown below.
 
@@ -38,11 +42,14 @@ Assuming the value in your model is called `Icon` the icon can be used as shown 
 </svg>
 ```
 
-## Credits
-Created by Infocaster
+This functionality is great to use for things like nested content too, in the following image the Icomoon icon picker is used in some nested content. This gives the content editor a lot of variety!
+![Add icon](assets/screenshots/example_multiple_icons.png)
 
-<a href="https://github.com/Infocaster/UrlTracker/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Infocaster/UrlTracker" />
+## Credits
+Created by [Infocaster](https://infocaster.net)
+
+<a href="https://github.com/Infocaster/IcomoonPicker/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Infocaster/IcomoonPicker" />
 </a>
 
 *Made with [contributors-img](https://contrib.rocks).*
