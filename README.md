@@ -1,24 +1,40 @@
-# Icomoon Icon Picker 
-This package lets you use your icomoon project as an icon picker for the specified doctype for Umbraco 8
+<h3 align="center">
+<img height="100" src="https://raw.githubusercontent.com/Infocaster/.github/main/assets/infocaster_nuget_pink.svg">
+</h3>
 
-# Getting Started
+<h1 align="center">
+Icomoon icon picker
+
+[![Downloads](https://img.shields.io/nuget/dt/UrlTracker?color=ff0069)](https://www.nuget.org/packages/UrlTracker/)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/UrlTracker?color=ffc800)](https://www.nuget.org/packages/UrlTracker/)
+![GitHub](https://img.shields.io/github/license/Infocaster/UrlTracker?color=ff0069)
+
+</h1>
+
+The Icomoon icon picker allows you to use an Icomoon project to create your own icons and import them into Umbraco via a custom Property Editor.
+This package gives the content editor complete control over which icons can be used on their website and select them themselves.
+
+## Requirements
+The Icomoon icon picker requires you to set up an Icomoon account.
+
+## Getting started
+The Icomoon icon picker is available via [NuGet](https://www.nuget.org/packages/UrlTracker/).
 
 ## Installation
-1. Voeg de plugin toe aan de App_plugins map van je project.
-2. Maak in de backoffice van je project een data type aan.  Settings > Data Types - New Data Type.
+Installing the Icomoon icon picker is quick and easy, just install the NuGet package and follow these steps:
 
-    2.1  Geef het Data type een duidelijke titel.
-    
-    2.2 Als de plugin juist is toegevoegd aan App_plugins, zou je in de property editor de optie hebben voor "Icomoon icon picker". Selecteer deze.
-   
-   2.3 Vul de project name van je icomoon project in. 
-   
-   2.4 Vul de project code van je icomoon project in.
+1. Go to the backoffice and create a new Data Type.
+2. There should be a new Property Type called `Icomoon icon picker`.
+3. Select this new Property Type and enter the name and code of your Icomoon project (these can be found [here](https://icomoon.io/app/#/select/image) in the url shown under Development Links and Production Links. The code is the part after `public` in the URL). 
+4. Save the Property Type. It is now available to use in any Document Type you want!
 
-   Code en project naam zijn [hier](https://icomoon.io/app/#/select/image) te vinden.
-   
-   ```<link rel="stylesheet" href="https://i.icomoon.io/public/{Code}/{Projectname}}/style-svg.css"></```
+## Credits
+Created by Infocaster
 
+<a href="https://github.com/Infocaster/UrlTracker/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Infocaster/UrlTracker" />
+</a>
 
-3. Gebruik het data type op de gewenste document type.
-4. De Icon picker is klaar voor gebruik op de content pagina met het zojuist gebruikte document type.
+*Made with [contributors-img](https://contrib.rocks).*
+
+-----
