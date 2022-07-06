@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <ContentTargetFolders>.</ContentTargetFolders>
+        <Product>Infocaster.Umbraco.IcomoonPicker</Product>
+        <PackageId>IcomoonPicker</PackageId>
+        <Title>IcomoonPicker</Title>
+        <Description>...</Description>
+        <Product>...</Product>
+        <PackageTags>umbraco plugin package</PackageTags>
+        <RootNamespace>Infocaster.Umbraco.IcomoonPicker</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Umbraco.Cms.Web.Website" Version="10.0.1" />
+        <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="build\**\*.*">
+            <Pack>True</Pack>
+            <PackagePath>buildTransitive</PackagePath>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Infocaster.Umbraco.IcomoonPicker\**" />
+      <EmbeddedResource Remove="Infocaster.Umbraco.IcomoonPicker\**" />
+      <None Remove="Infocaster.Umbraco.IcomoonPicker\**" />
+    </ItemGroup>
+</Project>
