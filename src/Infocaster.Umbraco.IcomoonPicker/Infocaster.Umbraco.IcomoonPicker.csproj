@@ -5,11 +5,18 @@
         <ContentTargetFolders>.</ContentTargetFolders>
         <Product>Infocaster.Umbraco.IcomoonPicker</Product>
         <PackageId>IcomoonPicker</PackageId>
-        <Title>IcomoonPicker</Title>
-        <Description>...</Description>
-        <Product>...</Product>
-        <PackageTags>umbraco plugin package</PackageTags>
+        <Title>Icomoon icon picker</Title>
+        <Product>IcomoonPicker</Product>
+        <PackageTags>umbraco plugin package icomoon icons icon net6 propertyeditor contentmanagement CMS</PackageTags>
         <RootNamespace>Infocaster.Umbraco.IcomoonPicker</RootNamespace>
+		<Copyright>Copyright © Infocaster 2022</Copyright>
+		<PackageProjectUrl>https://github.com/infocaster/IcomoonPicker</PackageProjectUrl>
+		<PackageIcon>infocaster_nuget_yellow.png</PackageIcon>
+		<PackageReadmeFile>README-NUGET.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/infocaster/IcomoonPicker</RepositoryUrl>
+		<PackageReleaseNotes>First release for Umbraco 10</PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 
     <ItemGroup>
