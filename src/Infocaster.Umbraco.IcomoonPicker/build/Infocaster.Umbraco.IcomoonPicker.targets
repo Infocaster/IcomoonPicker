@@ -1,7 +1,8 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <PropertyGroup>
-        <InfocasterUmbracoIcomoonPickerContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\Infocaster.Umbraco.IcomoonPicker\**\*.*</InfocasterUmbracoIcomoonPickerContentFilesPath>
+		<InfocasterUmbracoIcomoonPickerPluginFolder>App_Plugins\Infocaster.Umbraco.IcomoonPicker</InfocasterUmbracoIcomoonPickerPluginFolder>
+		<InfocasterUmbracoIcomoonPickerContentFilesPath>$(MSBuildThisFileDirectory)..\content\$(InfocasterUmbracoIcomoonPickerPluginFolder)\**\*.*</InfocasterUmbracoIcomoonPickerContentFilesPath>
     </PropertyGroup>
 
     <Target Name="CopyInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="Build">
@@ -11,14 +12,14 @@
         <Message Text="Copying Infocaster.Umbraco.IcomoonPicker files: $(InfocasterUmbracoIcomoonPickerContentFilesPath) - #@(InfocasterUmbracoIcomoonPickerContentFiles->Count()) files"  Importance="high" />
         <Copy
             SourceFiles="@(InfocasterUmbracoIcomoonPickerContentFiles)"
-            DestinationFiles="@(InfocasterUmbracoIcomoonPickerContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\Infocaster.Umbraco.IcomoonPicker\%(RecursiveDir)%(Filename)%(Extension)')"
+            DestinationFiles="@(InfocasterUmbracoIcomoonPickerContentFiles->'$(MSBuildProjectDirectory)\$(InfocasterUmbracoIcomoonPickerPluginFolder)\%(RecursiveDir)%(Filename)%(Extension)')"
             SkipUnchangedFiles="true" />
 
     </Target>
 
     <Target Name="ClearInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="Clean">
         <ItemGroup>
-            <InfocasterUmbracoIcomoonPickerDir Include="$(MSBuildProjectDirectory)\App_Plugins\Infocaster.Umbraco.IcomoonPicker\" />
+            <InfocasterUmbracoIcomoonPickerDir Include="$(MSBuildProjectDirectory)\$(InfocasterUmbracoIcomoonPickerPluginFolder)\" />
         </ItemGroup>
         <Message Text="Clear old Infocaster.Umbraco.IcomoonPicker data"  Importance="high" />
         <RemoveDir Directories="@(InfocasterUmbracoIcomoonPickerDir)"  />

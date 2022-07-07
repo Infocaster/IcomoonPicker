@@ -44,10 +44,10 @@
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-		<Content Include="App_Plugins\**\*.*">
+		<Content Include="App_Plugins\Infocaster.Umbraco.IcomoonPicker\**\*.*">
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
 			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
-			<PackagePath>App_Plugins</PackagePath>
+			<PackagePath>content\App_Plugins\Infocaster.Umbraco.IcomoonPicker</PackagePath>
 		</Content>
     </ItemGroup>
 
