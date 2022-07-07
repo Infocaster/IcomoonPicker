@@ -12,7 +12,7 @@
 
             const options = {
                 title: 'Select icon from icomoon',
-                view: '/app_plugins/Icomoon/views/panel.html',
+                view: '/app_plugins/Infocaster.Umbraco.IcomoonPicker/views/panel.html',
                 size: 'small',
                 submit: submit,
                 close: close,

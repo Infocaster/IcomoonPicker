@@ -1,0 +1,27 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <InfocasterUmbracoIcomoonPickerContentFilesPath>$(MSBuildThisFileDirectory)..\App_Plugins\Infocaster.Umbraco.IcomoonPicker\**\*.*</InfocasterUmbracoIcomoonPickerContentFilesPath>
+    </PropertyGroup>
+
+    <Target Name="CopyInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="Build">
+        <ItemGroup>
+            <InfocasterUmbracoIcomoonPickerContentFiles Include="$(InfocasterUmbracoIcomoonPickerContentFilesPath)" />
+        </ItemGroup>
+        <Message Text="Copying Infocaster.Umbraco.IcomoonPicker files: $(InfocasterUmbracoIcomoonPickerContentFilesPath) - #@(InfocasterUmbracoIcomoonPickerContentFiles->Count()) files"  Importance="high" />
+        <Copy
+            SourceFiles="@(InfocasterUmbracoIcomoonPickerContentFiles)"
+            DestinationFiles="@(InfocasterUmbracoIcomoonPickerContentFiles->'$(MSBuildProjectDirectory)\App_Plugins\Infocaster.Umbraco.IcomoonPicker\%(RecursiveDir)%(Filename)%(Extension)')"
+            SkipUnchangedFiles="true" />
+
+    </Target>
+
+    <Target Name="ClearInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="Clean">
+        <ItemGroup>
+            <InfocasterUmbracoIcomoonPickerDir Include="$(MSBuildProjectDirectory)\App_Plugins\Infocaster.Umbraco.IcomoonPicker\" />
+        </ItemGroup>
+        <Message Text="Clear old Infocaster.Umbraco.IcomoonPicker data"  Importance="high" />
+        <RemoveDir Directories="@(InfocasterUmbracoIcomoonPickerDir)"  />
+    </Target>
+
+</Project>

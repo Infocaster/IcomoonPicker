@@ -4,7 +4,7 @@
       "alias": "Infocaster.IcomoonPicker",
       "name": "Icomoon icon picker",
       "editor": {
-        "view": "~/App_Plugins/Icomoon/views/editor.html",
+        "view": "~/App_Plugins/Infocaster.Umbraco.IcomoonPicker/views/editor.html",
         "isReadOnly": false
       },
       "prevalues": {
@@ -37,11 +37,11 @@
   ],
 
   "javascript": [
-    "~/App_Plugins/Icomoon/scripts/editor.controller.js",
-    "~/App_Plugins/Icomoon/scripts/panel.controller.js"
+    "~/App_Plugins/Infocaster.Umbraco.IcomoonPicker/scripts/editor.controller.js",
+    "~/App_Plugins/Infocaster.Umbraco.IcomoonPicker/scripts/panel.controller.js"
   ],
 
   "css": [
-    "~/App_Plugins/Icomoon/style/icomoon.css"
+    "~/App_Plugins/Infocaster.Umbraco.IcomoonPicker/style/icomoon.css"
   ]
 }
