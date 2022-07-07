@@ -6,6 +6,9 @@
         <Product>Infocaster.Umbraco.IcomoonPicker</Product>
         <PackageId>IcomoonPicker</PackageId>
         <Title>Icomoon icon picker</Title>
+		<Description>
+			The Icomoon icon picker adds a property editor that enables the content editor to use their own custom Icomoon icons in their website.
+		</Description>
         <Product>IcomoonPicker</Product>
         <PackageTags>umbraco plugin package icomoon icons icon net6 propertyeditor contentmanagement CMS</PackageTags>
         <RootNamespace>Infocaster.Umbraco.IcomoonPicker</RootNamespace>
