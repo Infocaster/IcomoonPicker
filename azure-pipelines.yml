@@ -31,11 +31,6 @@ stages:
         configFilePath: GitVersion.yml
         updateAssemblyInfo: true
 
-    - task: NodeTool@0
-      displayName: 'Use node 12.x'
-      inputs:
-        versionSpec: '12.x'
-
     - task: UseDotNet@2
       displayName: 'Use .NET 6'
       inputs:
