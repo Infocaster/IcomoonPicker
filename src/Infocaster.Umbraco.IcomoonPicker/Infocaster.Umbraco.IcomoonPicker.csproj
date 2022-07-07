@@ -37,7 +37,7 @@
 		<Content Include="App_Plugins\**\*.*">
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
 			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
-			<PackagePath>\</PackagePath>
+			<PackagePath>App_Plugins</PackagePath>
 		</Content>
     </ItemGroup>
 
