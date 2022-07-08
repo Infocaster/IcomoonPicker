@@ -31,7 +31,6 @@
 		<Content Include="App_Plugins\Infocaster.Umbraco.IcomoonPicker\**\*.*">
 			<ExcludeFromSingleFile>true</ExcludeFromSingleFile>
 			<CopyToPublishDirectory>Always</CopyToPublishDirectory>
-			<PackagePath>App_Plugins\Infocaster.Umbraco.IcomoonPicker</PackagePath>
 		</Content>
 		<None Include="build\**\*.*">
 			<Pack>True</Pack>
