@@ -5,7 +5,7 @@
 		<IcomoonPickerContentFilesPath>$(MSBuildThisFileDirectory)..\content\$(IcomoonPickerPluginFolder)\**\*.*</IcomoonPickerContentFilesPath>
     </PropertyGroup>
 
-    <Target Name="CopyInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="Build">
+    <Target Name="CopyInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="BeforeBuild">
         <ItemGroup>
             <IcomoonPickerContentFiles Include="$(IcomoonPickerContentFilesPath)" />
         </ItemGroup>
