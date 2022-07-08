@@ -3,13 +3,13 @@
         <TargetFramework>net6.0</TargetFramework>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <ContentTargetFolders>.</ContentTargetFolders>
-        <Product>Infocaster.Umbraco.IcomoonPicker</Product>
-        <PackageId>IcomoonPicker</PackageId>
+		<PackageId>IcomoonPicker</PackageId>
         <Title>Icomoon icon picker</Title>
 		<Description>
 			The Icomoon icon picker adds a property editor that enables the content editor to use their own custom Icomoon icons in their website.
 		</Description>
         <Product>IcomoonPicker</Product>
+		<Authors>Infocaster B.V.</Authors>
         <PackageTags>umbraco plugin package icomoon icons icon net6 propertyeditor contentmanagement CMS</PackageTags>
         <RootNamespace>Infocaster.Umbraco.IcomoonPicker</RootNamespace>
 		<Copyright>Copyright © Infocaster 2022</Copyright>
@@ -56,4 +56,8 @@
       <EmbeddedResource Remove="Infocaster.Umbraco.IcomoonPicker\**" />
       <None Remove="Infocaster.Umbraco.IcomoonPicker\**" />
     </ItemGroup>
+	
+	<ItemGroup>
+		<Folder Include="App_Plugins\" />
+	</ItemGroup>
 </Project>
