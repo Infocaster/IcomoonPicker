@@ -11,6 +11,7 @@
 		<Product>IcomoonPicker</Product>
 		<Authors>Infocaster B.V.</Authors>
 		<PackageTags>umbraco plugin package icomoon icons icon net6 propertyeditor contentmanagement CMS</PackageTags>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<RootNamespace>Infocaster.Umbraco.IcomoonPicker</RootNamespace>
 		<Copyright>Copyright © Infocaster 2022</Copyright>
 		<PackageProjectUrl>https://github.com/infocaster/IcomoonPicker</PackageProjectUrl>
