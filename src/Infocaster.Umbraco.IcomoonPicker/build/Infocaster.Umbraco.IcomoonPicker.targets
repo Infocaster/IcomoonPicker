@@ -10,7 +10,8 @@
             <IcomoonPickerContentFiles Include="$(IcomoonPickerContentFilesPath)" />
         </ItemGroup>
         <Message Text="Copying Infocaster.Umbraco.IcomoonPicker files: $(IcomoonPickerContentFilesPath) - #@(IcomoonPickerContentFiles->Count()) files"  Importance="high" />
-        <Copy
+		<Warning Text="No IcomoonPicker files found in $(IcomoonPickerContentFiles)" Condition="@(IcomoonPickerContentFiles->Count()) == 0" />
+		<Copy
             SourceFiles="@(IcomoonPickerContentFiles)"
             DestinationFiles="@(IcomoonPickerContentFiles->'$(MSBuildProjectDirectory)\$(IcomoonPickerPluginFolder)\%(RecursiveDir)%(Filename)%(Extension)')"
             SkipUnchangedFiles="true" />
