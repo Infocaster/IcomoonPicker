@@ -2,7 +2,7 @@
 
     <PropertyGroup>
 		<IcomoonPickerPluginFolder>App_Plugins\Infocaster.Umbraco.IcomoonPicker</IcomoonPickerPluginFolder>
-		<IcomoonPickerContentFilesPath>$(MSBuildThisFileDirectory)..\content\$(IcomoonPickerPluginFolder)\**\*.*</IcomoonPickerContentFilesPath>
+		<IcomoonPickerContentFilesPath>$(MSBuildThisFileDirectory)..\$(IcomoonPickerPluginFolder)\**\*.*</IcomoonPickerContentFilesPath>
     </PropertyGroup>
 
     <Target Name="CopyInfocasterUmbracoIcomoonPickerAssets" BeforeTargets="BeforeBuild">
