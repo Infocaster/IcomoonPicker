@@ -18,7 +18,7 @@
 		<PackageIcon>infocaster_nuget_yellow.png</PackageIcon>
 		<PackageReadmeFile>README-NUGET.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/infocaster/IcomoonPicker</RepositoryUrl>
-		<PackageReleaseNotes>First release for Umbraco 10</PackageReleaseNotes>
+		<PackageReleaseNotes>Fixed a xpath error</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
