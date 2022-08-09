@@ -14,7 +14,7 @@ namespace Infocaster.Umbraco.IcomoonPicker.PropertyValueConverters
 
         public object ConvertIntermediateToXPath(IPublishedElement owner, IPublishedPropertyType propertyType, PropertyCacheLevel referenceCacheLevel, object inter, bool preview)
         {
-            return inter.ToString();
+            return inter?.ToString() ?? String.Empty;
         }
 
         public object ConvertSourceToIntermediate(IPublishedElement owner, IPublishedPropertyType propertyType, object source, bool preview)
