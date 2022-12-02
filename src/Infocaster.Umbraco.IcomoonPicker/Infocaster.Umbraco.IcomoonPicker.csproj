@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<ContentTargetFolders>.</ContentTargetFolders>
 		<PackageId>IcomoonPicker</PackageId>
@@ -10,7 +10,7 @@
 		</Description>
 		<Product>IcomoonPicker</Product>
 		<Authors>Infocaster B.V.</Authors>
-		<PackageTags>umbraco plugin package icomoon icons icon net6 propertyeditor contentmanagement CMS</PackageTags>
+		<PackageTags>umbraco plugin package icomoon icons icon net7 propertyeditor contentmanagement CMS umbraco-marketplace</PackageTags>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<RootNamespace>Infocaster.Umbraco.IcomoonPicker</RootNamespace>
 		<Copyright>Copyright © Infocaster 2022</Copyright>
@@ -18,14 +18,14 @@
 		<PackageIcon>infocaster_nuget_yellow.png</PackageIcon>
 		<PackageReadmeFile>README-NUGET.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/infocaster/IcomoonPicker</RepositoryUrl>
-		<PackageReleaseNotes>Fixed a xpath error</PackageReleaseNotes>
+		<PackageReleaseNotes>Initial release for Umbraco 11</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Umbraco.Cms.Web.Website" Version="10.0.1" />
-		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.0.1" />
+		<PackageReference Include="Umbraco.Cms.Web.Website" Version="11.0.0" />
+		<PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="11.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>

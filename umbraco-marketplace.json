@@ -1,0 +1,27 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+    "Title": "Icomoon icon picker",
+    "Category": "Editor Tools",
+    "PackageType": "Package",
+    "Tags": [
+        "icon",
+        "icons",
+        "icomoon",
+        "propertyeditor",
+        "backoffice",
+        "content"
+    ],
+    "LicenseTypes": ["Free"],
+    "AuthorDetails": {
+        "Url": "https://infocaster.net",
+        "ImageUrl": "https://github.com/InfocasterTechniek.png",
+        "Description": "Let's make the internet brighter",
+        "Contributors": [
+            "Bram van den Bogaard",
+            "Dennis Heutinck",
+            "Erik Eelman"
+        ]
+    },
+    "IssueTrackerUrl": "https://github.com/Infocaster/IcomoonPicker/issues",
+    "DiscussionForumUrl": "https://github.com/Infocaster/IcomoonPicker/discussions"
+}
