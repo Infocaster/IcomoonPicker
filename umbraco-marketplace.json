@@ -16,11 +16,17 @@
         "Url": "https://infocaster.net",
         "ImageUrl": "https://github.com/InfocasterTechniek.png",
         "Description": "Let's make the internet brighter",
-        "Contributors": [
-            "Bram van den Bogaard",
-            "Dennis Heutinck",
-            "Erik Eelman"
-        ]
+      "Contributors": [
+        {
+          "Name": "Bram van den Bogaard"
+        },
+        {
+          "Name": "Dennis Heutinck"
+        },
+        {
+          "Name": "Erik Eelman"
+        }
+      ]
     },
     "IssueTrackerUrl": "https://github.com/Infocaster/IcomoonPicker/issues",
     "DiscussionForumUrl": "https://github.com/Infocaster/IcomoonPicker/discussions"
