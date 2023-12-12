@@ -8,6 +8,8 @@ namespace Infocaster.Umbraco.IcomoonPicker.Composers
     {
         public void Compose(IUmbracoBuilder builder)
         {
+            builder.BackOfficeAssets()
+                .Append<ScriptAsset>();
             builder.Services.AddHttpClient();
         }
     }

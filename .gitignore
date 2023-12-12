@@ -52,3 +52,4 @@ artifacts/
 **/dist/
 /src/Infocaster.UmbracoWebsite.Web/config/serilog.user.config
 /src/Infocaster.UmbracoAwesome.Icomoon/UmbracoAwesome-IcomoonPicker.1.0.0.nupkg
+/src/Infocaster.Umbraco.IcomoonPicker.Website/App_Plugins
