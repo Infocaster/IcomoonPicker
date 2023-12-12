@@ -13,10 +13,15 @@ pool:
   name: Default
 
 variables:
-  BuildConfiguration: "release"
-  BuildPlatform: "any cpu"
-  Solution: '**\*.sln'
-  NpmWorkingDirectory: 'src\Infocaster.Umbraco.IcomoonPicker'
+- group: nuget-package
+- name: BuildConfiguration
+  value: "release"
+- name: BuildPlatform
+  value: "any cpu"
+- name: Solution
+  value: '**\*.sln'
+- name: NpmWorkingDirectory
+  value: 'src\Infocaster.Umbraco.IcomoonPicker'
 
 stages:
   - stage: build
