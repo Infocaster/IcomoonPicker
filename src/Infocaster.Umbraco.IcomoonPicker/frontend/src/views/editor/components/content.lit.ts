@@ -66,7 +66,8 @@ export class IcomoonPickerContent extends LitElement {
   }
 
   submitPanel = (value: string) => {
-    this.model = value;
+      this.model = value;
+      this.$scope.model.value = this.model;
     this.closePanel();
   };
 
